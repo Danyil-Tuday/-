@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Картинка</title>
+        <style>
+            body {
+                margin: 20px;
+            }
+            img {
+                max-width: 45vw;
+            }
+            .sepia-75{
+                filter: sepia(75%);
+            }
+            .sepia-100{
+                filter: sepia(100%);
+            }
+            .bw-50 {
+                filter: grayscale(0.5);
+            }
+            .bw-100{
+                filter: grayscale(1);
+            }
+            .sat-60 {
+                filter: saturate(0.5);
+            }
+            .sat-10 {
+                filter: saturate(1);
+            }
+            .gg-60 {
+                filter: opacity(60%);
+            }
+            .gg-10 {
+                filter: opacity(10%)
+            }
+        </style>
+    </head>
+    <body>
+        <h2>сепія 75%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="sepia-75">
+        
+        <h2>сепія 100%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="sepia-100">
+
+        <h2>чорна біла 50%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="bw-50">
+
+        <h2>чорна біла 100%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="bw-100">
+
+        <h2>сатурате 60%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="sat-60">
+
+        <h2>сатурате 10%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="sat-10">
+
+        <h2>опасіті 100%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="gg-60">
+
+        <h2>опасіті 10%</h2>
+        <img src="L.jpg">
+        <img src="L.jpg" class="gg-10">
+    </body>
+</html>
